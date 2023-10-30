@@ -1,0 +1,14 @@
+C:\work\Jobs\ECBook\ECBook.Data\bin\Debug\net7.0\ECBook.Data.deps.json
+C:\work\Jobs\ECBook\ECBook.Data\bin\Debug\net7.0\ECBook.Data.runtimeconfig.json
+C:\work\Jobs\ECBook\ECBook.Data\bin\Debug\net7.0\ECBook.Data.dll
+C:\work\Jobs\ECBook\ECBook.Data\bin\Debug\net7.0\ECBook.Data.pdb
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.csproj.AssemblyReference.cache
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.AssemblyInfoInputs.cache
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.AssemblyInfo.cs
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.csproj.CoreCompileInputs.cache
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.dll
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\refint\ECBook.Data.dll
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.pdb
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ECBook.Data.genruntimeconfig.cache
+C:\work\Jobs\ECBook\ECBook.Data\obj\Debug\net7.0\ref\ECBook.Data.dll

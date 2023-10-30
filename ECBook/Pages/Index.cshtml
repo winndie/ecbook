@@ -1,0 +1,22 @@
+﻿@page
+@model ECBook.App.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <h1 class="display-4">Welcome</h1>
+    @foreach (var post in Model.Posts.OrderByDescending(x => x.DateTimePosted))
+    {
+        <div class="container post">
+            <div class="row">
+                <div class="col-3 text-start">@post.Author.FullName</div>
+                <div class="col-6"></div>
+                <div class="col-3 text-end">@post.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
+            </div>
+            <div class="row post-context">
+                <div class="col-12 text-center">@post.Content</div>
+            </div>
+        </div>
+    }
+</div>

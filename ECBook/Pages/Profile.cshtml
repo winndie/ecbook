@@ -1,0 +1,39 @@
+﻿@page
+@model ECBook.App.Pages.ProfileModel
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="text-center">
+    <h1>Profile</h1>
+</div>
+
+<form method="post">
+    <div class="form-group">
+        <label>Choose a person:</label>
+        <select asp-for="ProfileId" class="d-block w-50">
+            <option selected value="-1">Select</option>
+            @foreach (var profile in Model.Profiles)
+            {
+                <option value="@profile.Id">@profile.FullName</option>
+            }
+        </select>
+        <span asp-validation-for="ProfileId"></span>
+    </div>
+    <div>
+        <button class="btn btn-primary float-right" type="submit">Search</button>
+    </div>
+    @if (Model.Post != null)
+    {        
+        <div class="container post">
+            <div class="row">
+                <div class="col-3 text-start">@Model.Post.Author.FullName</div>
+                <div class="col-6"></div>
+                <div class="col-3 text-end">@Model.Post.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
+            </div>
+            <div class="row post-context">
+                <div class="col-12 text-center">@Model.Post.Content</div>
+            </div>
+        </div>
+    }
+</form>
