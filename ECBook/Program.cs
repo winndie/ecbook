@@ -1,12 +1,7 @@
 using ECBook.Data;
 using Microsoft.EntityFrameworkCore;
 
-using (var context = new Context())
-{
-    context.Database.Migrate();
-}
-
-    var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<Context>(options =>
