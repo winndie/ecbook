@@ -4,28 +4,32 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="container">
-    <h1 class="display-4">Welcome</h1>
+<h1 class="text-center">Welcome</h1>
+
+<div class="container shadow-sm p-3 mb-5 bg-body-tertiary rounded">
     @if (Model.News != null)
     {
-        <div class="container post">
-            <div class="row">@Model.News.Title</div>
-            <div class="row">@Model.News.Description</div>
+        <div class="container row-gap-3">
+            <div class="row"><h6 class="text-start">@Model.News.Title</h6></div>
+            <div class="row"><div class="text-center">@Model.News.Description</div></div>
+            <div class="row"><div class="text-end">Tech News...</div></div>
         </div>
     }
+    <table class="table table-striped border mt-5">
     @foreach (var post in Model.Posts.OrderByDescending(x => x.DateTimePosted))
     {
-        <div class="container post">
-            <div class="row">
-                <div class="col-3 text-start">
-                    <a class="nav-link text-dark" href="~/Profile?profileId=@post.AuthorId">@post.Author.FullName</a>
-                </div>
-                <div class="col-6"></div>
-                <div class="col-3 text-end">@post.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
+        <tr><td>
+        <div class="row column-gap-3">
+            <div class="col text-start">
+                <a href="~/Profile?profileId=@post.AuthorId" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                    @post.Author.FullName</a>
             </div>
-            <div class="row post-context">
-                <div class="col-12 text-center">@post.Content</div>
-            </div>
+            <div class="col text-end">@post.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
         </div>
+        <div class="row">
+            <div class="col text-center">@post.Content</div>
+        </div>
+        </td></tr>
     }
+    </table>
 </div>

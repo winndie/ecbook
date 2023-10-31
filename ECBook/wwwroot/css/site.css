@@ -20,12 +20,3 @@ html {
 body {
   margin-bottom: 60px;
 }
-
-post-context {
-    padding: 10px 10px 10px 10px;
-}
-
-post {
-    border: 1px solid black;
-    margin-bottom: 10px;
-}
