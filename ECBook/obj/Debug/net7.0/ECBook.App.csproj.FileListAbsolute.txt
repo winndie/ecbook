@@ -154,14 +154,14 @@ C:\work\Jobs\ECBook\ECBook\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestP
 C:\work\Jobs\ECBook\ECBook\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\work\Jobs\ECBook\ECBook\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
 C:\work\Jobs\ECBook\ECBook\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
-C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\testhost.exe
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\testhost.dll
+C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\testhost.exe
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\appsettings.Development.json
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\appsettings.json
+C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\ECBook.App.staticwebassets.runtime.json
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
-C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\ECBook.App.staticwebassets.runtime.json
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\ECBook.App.exe
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\ECBook.App.deps.json
 C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\bin\Debug\net7.0\ECBook.App.runtimeconfig.json

@@ -10,7 +10,9 @@
     {
         <div class="container post">
             <div class="row">
-                <div class="col-3 text-start">@post.Author.FullName</div>
+                <div class="col-3 text-start">
+                    <a class="nav-link text-dark" href="~/Profile?profileId=@post.AuthorId">@post.Author.FullName</a>
+                </div>
                 <div class="col-6"></div>
                 <div class="col-3 text-end">@post.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
             </div>
