@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6QDp1pRl6dGaJDVKESma37+/KOlUOFEtbsI69Qd41v3jb4Gnmic3iMQJnEs9OA53Pv8hORNnp8I7b7x1GYtugQ==",
+  "dgSpecHash": "xdGlER/BcSt5qrsgwmR2vpItcjM/rSrNnznAgyD3lyOS2uHVN5Ix6cQCxbsxd5wnNMyYZd7+lMp2uWmws0bNCg==",
   "success": true,
   "projectFilePath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook\\ECBook.App.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.11\\microsoft.entityframeworkcore.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\winnd\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

@@ -6,6 +6,13 @@
 
 <div class="container">
     <h1 class="display-4">Welcome</h1>
+    @if (Model.News != null)
+    {
+        <div class="container post">
+            <div class="row">@Model.News.Title</div>
+            <div class="row">@Model.News.Description</div>
+        </div>
+    }
     @foreach (var post in Model.Posts.OrderByDescending(x => x.DateTimePosted))
     {
         <div class="container post">
