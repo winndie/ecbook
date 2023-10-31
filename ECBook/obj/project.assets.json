@@ -6863,11 +6863,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\Jobs\\ECBook\\ECBook\\ECBook.App.csproj",
+      "projectUniqueName": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook\\ECBook.App.csproj",
       "projectName": "ECBook.App",
-      "projectPath": "C:\\work\\Jobs\\ECBook\\ECBook\\ECBook.App.csproj",
+      "projectPath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook\\ECBook.App.csproj",
       "packagesPath": "C:\\Users\\winnd\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\Jobs\\ECBook\\ECBook\\obj\\",
+      "outputPath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\winnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6884,8 +6884,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\work\\Jobs\\ECBook\\ECBook.Data\\ECBook.Data.csproj": {
-              "projectPath": "C:\\work\\Jobs\\ECBook\\ECBook.Data\\ECBook.Data.csproj"
+            "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook.Data\\ECBook.Data.csproj": {
+              "projectPath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook.Data\\ECBook.Data.csproj"
             }
           }
         }

@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ECBook.App
 build_property.RootNamespace = ECBook.App
-build_property.ProjectDir = C:\work\Jobs\ECBook\ECBook\
+build_property.ProjectDir = C:\work\Jobs\Eastbourne College\ecbook-main\ECBook\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\work\Jobs\ECBook\ECBook
+build_property.MSBuildProjectDirectory = C:\work\Jobs\Eastbourne College\ecbook-main\ECBook
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Create.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Error.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Index.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Privacy.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Profile.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/_ViewImports.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/_ViewStart.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/work/Jobs/ECBook/ECBook/Pages/Shared/_Layout.cshtml]
+[C:/work/Jobs/Eastbourne College/ecbook-main/ECBook/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zqvivwe732

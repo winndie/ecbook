@@ -1271,11 +1271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\Jobs\\ECBook\\ECBook.Data\\ECBook.Data.csproj",
+      "projectUniqueName": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook.Data\\ECBook.Data.csproj",
       "projectName": "ECBook.Data",
-      "projectPath": "C:\\work\\Jobs\\ECBook\\ECBook.Data\\ECBook.Data.csproj",
+      "projectPath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook.Data\\ECBook.Data.csproj",
       "packagesPath": "C:\\Users\\winnd\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\Jobs\\ECBook\\ECBook.Data\\obj\\",
+      "outputPath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\winnd\\AppData\\Roaming\\NuGet\\NuGet.Config",

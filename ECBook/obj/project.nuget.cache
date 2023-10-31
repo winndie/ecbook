@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pYsea9oztozacxoUziBeX8B3aZqxSYbOtZ+pkZRKWzlsrBxxTznpeukY19MZM2PRJLrmHihZHnNdM3kLmRVTPg==",
+  "dgSpecHash": "6QDp1pRl6dGaJDVKESma37+/KOlUOFEtbsI69Qd41v3jb4Gnmic3iMQJnEs9OA53Pv8hORNnp8I7b7x1GYtugQ==",
   "success": true,
-  "projectFilePath": "C:\\work\\Jobs\\ECBook\\ECBook\\ECBook.App.csproj",
+  "projectFilePath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook\\ECBook.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\winnd\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

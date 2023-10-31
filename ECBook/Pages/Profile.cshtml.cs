@@ -33,13 +33,20 @@ namespace ECBook.App.Pages
         {
             if (ProfileId != -1)
             {
-                var posts = await DbContext.Post
-                    .Include(x => x.Author)
-                    .Where(x => x.AuthorId == ProfileId).ToListAsync();
+                var profileRepo = DbContext.Profile.AsQueryable();
+                var feedRepo = DbContext.Post.AsQueryable();
+                var query =
+                    await (from p in profileRepo
+                           where p.Id == ProfileId
+                           select new
+                           {
+                               profile = p,
+                               feeds = (from f in feedRepo where f.AuthorId == p.Id select f).ToList()
+                           }).FirstAsync();
 
-                if (posts != null && posts.Count() > 0)
+                if (query != null)
                 {
-                    Post = posts.OrderByDescending(x => x.DateTimePosted).First();
+                    SelctedProfile = new ProfileWithLatestFeed(query.profile,query.feeds);
                 }
             }
 
@@ -51,6 +58,6 @@ namespace ECBook.App.Pages
             Profiles = await DbContext.Profile.ToListAsync();
         }
 
-        public Post? Post { get; set; } = null;
+        public ProfileWithLatestFeed? SelctedProfile { get; set; }
     }
 }

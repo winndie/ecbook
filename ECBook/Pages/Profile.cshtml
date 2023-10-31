@@ -21,19 +21,26 @@
         <span asp-validation-for="ProfileId"></span>
     </div>
     <div>
-        <button class="btn btn-primary float-right" type="submit">Search</button>
+        <button class="btn btn-primary float-right" type="submit">View</button>
     </div>
-    @if (Model.Post != null)
+    @if (Model.SelctedProfile != null)
     {        
         <div class="container post">
             <div class="row">
-                <div class="col-3 text-start">@Model.Post.Author.FullName</div>
+                <div class="col-3 text-start">@Model.SelctedProfile.FullName</div>
                 <div class="col-6"></div>
-                <div class="col-3 text-end">@Model.Post.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
+                <div class="col-3 text-end">@Model.SelctedProfile.JobTitle</div>
             </div>
-            <div class="row post-context">
-                <div class="col-12 text-center">@Model.Post.Content</div>
-            </div>
+            @if (Model.SelctedProfile.LatestPost != null)
+            {
+                <div class="row">
+                    <div class="col-9"></div>
+                    <div class="col-3 text-end">@Model.SelctedProfile.LatestPost.DateTimePosted.ToString("dd-MM-yyyy hh:mm")</div>
+                </div>
+                <div class="row post-context">
+                    <div class="col-12 text-center">@Model.SelctedProfile.LatestPost.Content</div>
+                </div>
+            }
         </div>
     }
 </form>

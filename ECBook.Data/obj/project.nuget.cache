@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Zhx26pEc2dJGDIEEo8gX5uM3DNJus9BYMwk7dm+p7jaI0ugtfyKeLUk6NisyQsRDkcQwL1KDUEjbdB9oUYVqg==",
+  "dgSpecHash": "NNmk0dQflxOCzOw7fJ8VPVjTzXxKe1hn5L8PpDwZAG0HjX7xJvVsaUXd8LN5A8Uj0+81xSeCo7Rp+yjwAlTcOA==",
   "success": true,
-  "projectFilePath": "C:\\work\\Jobs\\ECBook\\ECBook.Data\\ECBook.Data.csproj",
+  "projectFilePath": "C:\\work\\Jobs\\Eastbourne College\\ecbook-main\\ECBook.Data\\ECBook.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\winnd\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\winnd\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
